@@ -1,9 +1,9 @@
-def binary_search(lista, item):
+def binary_search(list, item):
     down = 0
-    high = len(lista) - 1
+    high = len(list) - 1
     while down <= high:
         middle = (down + high) // 2
-        bet = lista[middle]
+        bet = list[middle]
         if bet == item:
             return item
         if bet > item:
