@@ -1,4 +1,4 @@
-export class VetorNaoOrdenado {
+export class ListaNaoOrdenada {
   private lastPosition: number;
   private vect: Array<number>;
   constructor(private capacidade: number) {
@@ -36,7 +36,7 @@ export class VetorNaoOrdenado {
   }
 }
 
-const vect = new VetorNaoOrdenado(5);
+const vect = new ListaNaoOrdenada(5);
 vect.insert(1);
 vect.insert(1);
 vect.print();

@@ -49,8 +49,5 @@ export const buscaBinaria = (lista: number[], item: number): number => {
 const listaOrdenada = [1, 2, 3, 4, 5, 6, 7];
 let result = buscaBinaria(listaOrdenada, 5);
 
-const message =
-  result === -1
-    ? 'não encontrado'
-    : 'Posição da lista que se encontra o elemento \n' + result;
+const message = result === -1 ? 'não encontrado' : 'Posição da lista que se encontra o elemento \n' + result;
 console.log(message);
